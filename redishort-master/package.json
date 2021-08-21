@@ -1,0 +1,20 @@
+{
+	"name": "redishort",
+	"version": "1.0.0",
+	"description": "Url shortener",
+	"main": "app.js",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongodb": "^3.5.6",
+		"nodemon": "^2.0.3",
+		"treemap-js": "^1.2.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"author": "Rishav Agarwal",
+	"license": "ISC"
+}
